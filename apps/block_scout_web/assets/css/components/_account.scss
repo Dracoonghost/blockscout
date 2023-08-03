@@ -21,7 +21,7 @@ input.profile-item {
 }
 
 .white {
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .card-body-account {
@@ -54,10 +54,10 @@ input.profile-item {
 .acc-link-active { 
   &:hover, &:focus {
     background-color: $primary !important;
-    color: #fff !important;  
+    color: #f0f0f0 !important;  
   }
   background-color: $primary;
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .table-watchlist {

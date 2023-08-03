@@ -1,7 +1,7 @@
 // Default variables
-$header-background-color: #fff !default;
+$header-background-color: #f0f0f0 !default;
 $header-links-color: #828ba0 !default;
-$header-links-background-color: #fff !default;
+$header-links-background-color: #f0f0f0 !default;
 $header-links-color-active: #333 !default;
 $header-icon-color: $header-links-color !default;
 $header-icon-color-hover: $secondary !default;
@@ -262,7 +262,7 @@ $header-logo-text-color: #333 !default;
   line-height: 28px;
 
   &.in-footer {
-    color: #fff;
+    color: #f0f0f0;
   }
 
   &.no-logo {

@@ -1,6 +1,6 @@
 $footer-background-color: $secondary !default;
-$footer-title-color: #fff !default;
-$footer-text-color: rgba(#fff, 0.7) !default;
+$footer-title-color: #f0f0f0 !default;
+$footer-text-color: rgba(#f0f0f0, 0.7) !default;
 $footer-link-color: $footer-text-color !default;
 $footer-item-disc-color: $primary !default;
 $footer-social-icon-color: $footer-text-color !default;
@@ -49,7 +49,7 @@ $footer-logo-width: auto !default;
   transition: $transition-cont;
 
   &:hover {
-    color: #fff;
+    color: #f0f0f0;
   }
 
   &:focus {
@@ -96,7 +96,7 @@ $footer-logo-width: auto !default;
         transition: $transition-cont;
         &:hover {
           text-decoration: none;
-          color: #fff;
+          color: #f0f0f0;
         }
         &:focus {
           color: darken($footer-text-color, 5);

@@ -2,11 +2,11 @@
 $primary: #133629;
 $secondary: #3E6957;
 $tertiary: #93d7ff;
-$additional-font: #fff;
+$additional-font: #f0f0f0;
 
 // footer
 $footer-background-color: $primary;
-$footer-title-color: #fff;
+$footer-title-color: #f0f0f0;
 $footer-text-color: #96bde8;
 $footer-item-disc-color: $secondary;
 .footer-logo { filter: brightness(0) invert(1); }
@@ -18,8 +18,8 @@ $dashboard-line-color-market: #15bba6;
 
 $dashboard-banner-chart-legend-label-color: $footer-text-color;
 $dashboard-stats-item-label-color: $footer-text-color;
-$dashboard-banner-chart-legend-value-color: #fff; // chart labels
-$dashboard-stats-item-value-color: #fff; // stat values
+$dashboard-banner-chart-legend-value-color: #f0f0f0; // chart labels
+$dashboard-stats-item-value-color: #f0f0f0; // stat values
 
 $dashboard-stats-item-border-color: $secondary; // stat border
 
@@ -40,7 +40,7 @@ $navbar-logo-height: 22px;
 $form-control-border-color-active: $secondary;
 
 // buttons
-$btn-line-bg: #fff; // button bg
+$btn-line-bg: #f0f0f0; // button bg
 $btn-line-color: $secondary; // button border and font color && hover bg color
 $btn-copy-color: $secondary; // btn copy
 $btn-qr-color: $secondary; // btn qr-code
@@ -117,7 +117,7 @@ $stakes-address-color: $secondary;
 $stakes-control-color: $secondary;
 $stakes-link-color: $secondary;
 $progress-from-to-progress-background: $secondary;
-$stakes-stats-item-border-color: rgba(#fff, .5);
+$stakes-stats-item-border-color: rgba(#f0f0f0, .5);
 $check-color: $secondary;
 $modal-status-graph-success: $secondary;
 $stakes-progress-graph-color: $secondary;
@@ -240,7 +240,7 @@ $dashboard-line-color-transactions-dark-theme: $secondary;
   }
 
   .card-tab {
-    color: #fff !important;
+    color: #f0f0f0 !important;
   }
 
   .card-body {  
@@ -271,7 +271,7 @@ $dashboard-line-color-transactions-dark-theme: $secondary;
   }
   
   .dropzone-1 {
-    border-color: #fff !important;
+    border-color: #f0f0f0 !important;
   }
   .footer-link {
 		color: $labels-dark !important;

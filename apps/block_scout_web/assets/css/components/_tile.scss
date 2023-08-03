@@ -19,14 +19,14 @@ $tile-body-a-color: #5959d8 !default;
 
 @mixin generate-tile-block($prefix, $color, $label-color: false) {
   &#{ $prefix } {
-    border-left: 4px solid $color;
+    border-left: 4px solid #aaaaaa;
 
     .tile-transaction-type-block {
       a {
         @if ($label-color) {
           color: $label-color;
         } @else {
-          color: $color;
+          color: #aaaaaa;
         }
       }
     }
@@ -35,7 +35,7 @@ $tile-body-a-color: #5959d8 !default;
       @if ($label-color) {
         color: $label-color;
       } @else {
-        color: $color;
+        color: #aaaaaa;
       }
     }
 
@@ -44,11 +44,11 @@ $tile-body-a-color: #5959d8 !default;
     }
 
     .tile-transaction-type-block {
-      background-color: rgba($color, 0.1);
-      border-bottom: 1px solid $color;
-      border-right: 1px solid $color;
-      border-top: 1px solid $color;
-      color: $color;
+      background-color: rgba(#aaaaaa, 0.1);
+      border-bottom: 1px solid #aaaaaa;
+      border-right: 1px solid #aaaaaa;
+      border-top: 1px solid #aaaaaa;
+      color: #aaaaaa;
     }
   }
 }
@@ -367,7 +367,7 @@ $tile-body-a-color: #5959d8 !default;
 
 // Loader
 .tile-type-loading {
-  background-color: #fff;
+  background-color: #f0f0f0;
   padding-top: 30px;
   padding-bottom: 28px;
 }

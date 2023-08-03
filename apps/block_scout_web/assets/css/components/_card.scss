@@ -1,12 +1,12 @@
-$card-background-color: #fff !default;
+$card-background-color: #f0f0f0 !default;
 $card-tab-active: $primary !default;
 $card-default-border-radius: 10px !default;
 $card-horizontal-padding: 30px;
 $card-vertical-padding: 30px;
 $card-background-1: $primary !default;
-$card-background-1-text-color: #fff !default;
+$card-background-1-text-color: #f0f0f0 !default;
 $card-tab-icon-color: #20b760 !default;
-$card-tab-icon-color-active: #fff !default;
+$card-tab-icon-color-active: #f0f0f0 !default;
 
 .card {
   background-color: $card-background-color;
@@ -232,7 +232,7 @@ $card-tab-icon-color-active: #fff !default;
 
   &.active {
     background-color: $card-tab-active;
-    color: #fff;
+    color: #f0f0f0;
     cursor: default;
     text-decoration: none;
 
@@ -297,7 +297,7 @@ $card-tab-icon-color-active: #fff !default;
 .contract-plus-btn-container {
   height: 31px !important;
   &:hover i {
-    color: #fff !important;
+    color: #f0f0f0 !important;
   }
 }
 

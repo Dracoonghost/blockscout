@@ -74,7 +74,7 @@
 
               <br>
               <%= if @method != :create do %>
-                <%= link gettext("Remove from Watch list"), to: watchlist_address_path(@conn, :delete, @watchlist_address.data.id), method: :delete, class: "btn btn-danger white button-sm", style: "color: #fff !important;" %>
+                <%= link gettext("Remove from Watch list"), to: watchlist_address_path(@conn, :delete, @watchlist_address.data.id), method: :delete, class: "btn btn-danger white button-sm", style: "color: #f0f0f0 !important;" %>
               <% end %>
               <div class="form-group float-right form-input">
                 <a class="btn btn-line"  href="<%= watchlist_path(@conn, :show) %>">

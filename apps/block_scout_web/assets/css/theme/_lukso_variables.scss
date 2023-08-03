@@ -11,7 +11,7 @@ a.tile-title { color: $tertiary !important; }
 
 // footer
 $footer-background-color: $primary;
-$footer-title-color: #fff;
+$footer-title-color: #f0f0f0;
 $footer-text-color: $secondary;
 $footer-item-disc-color: $secondary;
 $footer-social-icon-color: $secondary;
@@ -40,7 +40,7 @@ $dropdown-menu-item-hover-color: $primary !default;
 $dropdown-menu-item-hover-background: rgba($primary, .1) !default;
 
 // buttons
-$btn-line-bg: #fff; // button bg
+$btn-line-bg: #f0f0f0; // button bg
 $btn-line-color: $primary; // button border and font color && hover bg color
 $btn-copy-color: $primary; // btn copy
 $btn-qr-color: $primary; // btn qr-code

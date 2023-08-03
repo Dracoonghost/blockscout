@@ -568,7 +568,12 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 #, elixir-autogen, elixir-format
-msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
+msgid "TOB® is a layer-zero network. A unique DAG/EVM hybrid, TOB® is the fastest and most secure DLT infrastructure ever released, built to literally move at the speed of thought.
+
+
+
+
+"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction_state/_state_change.html.eex:8
@@ -1046,7 +1051,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:70
 #, elixir-autogen, elixir-format
-msgid "Daily Transactions"
+msgid "today"
 msgstr ""
 
 #: lib/block_scout_web/templates/address_logs/_logs.html.eex:101
@@ -1451,7 +1456,7 @@ msgstr ""
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:3
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:18
 #, elixir-autogen, elixir-format
-msgid "Gas tracker"
+msgid "tracker"
 msgstr ""
 
 #: lib/block_scout_web/templates/address/overview.html.eex:239
@@ -2337,7 +2342,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_search.html.eex:3
 #, elixir-autogen, elixir-format
-msgid "Search by address, token symbol name, transaction hash, or block number"
+msgid "search by address, token symbol name, transaction hash, or block number"
 msgstr ""
 
 #: lib/block_scout_web/templates/address_token_balance/_token_balances.html.eex:47
@@ -2991,7 +2996,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:131
 #, elixir-autogen, elixir-format
-msgid "Total blocks"
+msgid "blocks"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:168
@@ -3016,7 +3021,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:110
 #, elixir-autogen, elixir-format
-msgid "Total transactions"
+msgid "transactions"
 msgstr ""
 
 #: lib/block_scout_web/templates/account/tag_transaction/form.html.eex:11
@@ -3345,12 +3350,12 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:153
 #, elixir-autogen, elixir-format
-msgid "View All Blocks"
+msgid "VIEW ALL"
 msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:213
 #, elixir-autogen, elixir-format
-msgid "View All Transactions"
+msgid "VIEW ALL"
 msgstr ""
 
 #: lib/block_scout_web/templates/tokens/instance/overview/_details.html.eex:16
@@ -3428,7 +3433,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:139
 #, elixir-autogen, elixir-format
-msgid "Wallet addresses"
+msgid "wallets"
 msgstr ""
 
 #: lib/block_scout_web/templates/common_components/_changed_bytecode_warning.html.eex:3

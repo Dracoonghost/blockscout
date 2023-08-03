@@ -37,7 +37,7 @@
     <link rel="shortcut icon" type='image/x-icon' href="<%= static_path(@conn, "/images/vlry_favicon.svg") %>">
     <meta name="msapplication-TileColor" content="#7dd79f">
     <meta name="msapplication-config" content="<%= static_path(@conn, "/browserconfig.xml") %>">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#f0f0f0fff">
 
     <%= render_existing(@view_module, "_metatags.html", assigns) || render("_default_title.html") %>
 

@@ -24,7 +24,7 @@
   margin-top: -3rem;
 }
 
-@mixin stats-item($border-color: #fff, $text-color: #fff, $value-color: #fff) {
+@mixin stats-item($border-color: #f0f0f0, $text-color: #f0f0f0, $value-color: #f0f0f0) {
   &-item {
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@
   }
 }
 
-@mixin btn-full($bg-color: $primary, $text-color: #fff) {
+@mixin btn-full($bg-color: $primary, $text-color: #f0f0f0) {
   -webkit-appearance: none !important;
   align-items: center;
   background-color: $bg-color;
@@ -126,7 +126,7 @@
   }
 }
 
-@mixin btn-line($bg-color: #fff, $text-color: $secondary, $font-size: 12px) {
+@mixin btn-line($bg-color: #f0f0f0, $text-color: $secondary, $font-size: 12px) {
   -webkit-appearance: none !important;
   align-items: center;
   background-color: $bg-color;
@@ -208,7 +208,7 @@
     background-color: $color;
 
     path {
-      fill: #fff;
+      fill: #f0f0f0;
     }
   }
 }
@@ -236,7 +236,7 @@
     background-color: $color;
 
     path {
-      fill: #fff;
+      fill: #f0f0f0;
     }
   }
 }

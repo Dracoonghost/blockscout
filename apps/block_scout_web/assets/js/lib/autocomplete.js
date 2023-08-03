@@ -8,7 +8,7 @@ import { escapeHtml } from './utils'
 import { commonPath } from './path_helper'
 import xss from 'xss'
 
-const placeHolder = 'Search by address, token symbol, name, transaction hash, or block number'
+const placeHolder = 'search by address, token symbol, name, transaction hash, or block number'
 const dataSrc = async (query, id) => {
   try {
     // Loading placeholder text

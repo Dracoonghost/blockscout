@@ -269,7 +269,7 @@ class MarketHistoryChart {
       axes.numTransactions.position = 'left'
     }
 
-    const txChartTitle = 'Daily transactions'
+    const txChartTitle = 'today'
     const marketChartTitle = 'Daily price and market cap'
     let chartTitle = ''
     if (Object.keys(dataConfig).join() === 'transactions') {

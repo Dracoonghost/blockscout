@@ -1,7 +1,7 @@
 $pagination-page-link-background: #f5f6fa !default;
 $pagination-page-link-color: #a3a9b5 !default;
 $pagination-page-link-background-active: $primary !default;
-$pagination-page-link-color-active: #fff !default;
+$pagination-page-link-color-active: #f0f0f0 !default;
 
 @mixin pagination-container-base($background-color, $text-color) {
   background-color: $background-color;
