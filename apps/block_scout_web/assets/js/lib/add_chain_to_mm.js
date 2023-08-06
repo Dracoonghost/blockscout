@@ -30,7 +30,7 @@ export async function addChainToMM ({ btn }) {
             symbol: coinName,
             decimals: 18
           },
-          rpcUrls: [jsonRPC],
+          rpcUrls: ['https://rpc-public-mainnet.volary.io'],
           blockExplorerUrls: [blockscoutURL]
         }]
       })
