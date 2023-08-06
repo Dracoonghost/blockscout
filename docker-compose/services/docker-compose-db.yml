@@ -13,4 +13,4 @@ services:
     ports:
       - 7432:5432
     volumes:
-      - ./blockscout-db-data:/var/lib/postgresql/data/
+      - /mnt/volume_lon1_01/blockscout/blockscout-db-data:/var/lib/postgresql/data/

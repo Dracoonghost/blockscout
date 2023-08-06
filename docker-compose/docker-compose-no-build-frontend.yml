@@ -43,7 +43,7 @@ services:
     ports:
       - 4000:4000
     volumes:
-      - ./logs/:/app/logs/
+      - /mnt/volume_lon1_01/blockscout/logs/:/app/logs/
 
   smart-contract-verifier:
     extends:
