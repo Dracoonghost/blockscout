@@ -2,7 +2,7 @@
 <p align="center">Blockchain Explorer for inspecting and analyzing EVM Chains.</p>
 <div align="center">
 
-[![Blockscout](https://github.com/blockscout/blockscout/workflows/Blockscout/badge.svg?branch=master)](https://github.com/blockscout/blockscout/actions)
+[![Blockscout](https://gitlab.com/go-volary/volary-opera/workflows/Blockscout/badge.svg?branch=master)](https://gitlab.com/go-volary/volary-opera/actions)
 [![](https://dcbadge.vercel.app/api/server/blockscout?style=flat)](https://discord.gg/blockscout)
 
 </div>
@@ -12,7 +12,7 @@ BlockScout provides a comprehensive, easy-to-use interface for users to view, co
 
 See our [project documentation](https://docs.blockscout.com/) for detailed information and setup instructions.
 
-For questions, comments and feature requests see the [discussions section](https://github.com/blockscout/blockscout/discussions).
+For questions, comments and feature requests see the [discussions section](https://gitlab.com/go-volary/volary-opera/discussions).
 
 ## About BlockScout
 

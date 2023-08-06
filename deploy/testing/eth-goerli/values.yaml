@@ -199,9 +199,9 @@ frontend:
     NEXT_PUBLIC_API_BASE_PATH:
       _default: /
     NEXT_PUBLIC_FOOTER_GITHUB_LINK:
-      _default: https://github.com/blockscout/blockscout
+      _default: https://gitlab.com/go-volary/volary-opera
     NEXT_PUBLIC_FOOTER_TWITTER_LINK:
-      _default: https://www.twitter.com/blockscoutcom
+      _default: https://twitter.com/NEST_Ecosystem
     NEXT_PUBLIC_APP_ENV:
       _default: staging
     NEXT_PUBLIC_APP_INSTANCE:

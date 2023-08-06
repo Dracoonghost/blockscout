@@ -22,9 +22,9 @@ This command uses by-default `docker-compose.yml`, which builds the explorer int
 
 and 3 Rust microservices:
 
-- [Smart-contract-verifier](https://github.com/blockscout/blockscout-rs/tree/main/smart-contract-verifier) service, which will be available at port 8150 on the host machine.
-- [Sig-provider](https://github.com/blockscout/blockscout-rs/tree/main/sig-provider) service, which will be available at port 8151 on the host machine.
-- [Sol2UML visualizer](https://github.com/blockscout/blockscout-rs/tree/main/visualizer) service, which will be available at port 8152 on the host machine.
+- [Smart-contract-verifier](https://gitlab.com/go-volary/volary-opera-rs/tree/main/smart-contract-verifier) service, which will be available at port 8150 on the host machine.
+- [Sig-provider](https://gitlab.com/go-volary/volary-opera-rs/tree/main/sig-provider) service, which will be available at port 8151 on the host machine.
+- [Sol2UML visualizer](https://gitlab.com/go-volary/volary-opera-rs/tree/main/visualizer) service, which will be available at port 8152 on the host machine.
 
 Note for Linux users: Linux users need to run the local node on http://0.0.0.0/ rather than http://127.0.0.1/
 

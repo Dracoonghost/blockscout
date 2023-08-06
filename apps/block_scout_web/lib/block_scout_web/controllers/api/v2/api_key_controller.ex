@@ -10,7 +10,7 @@ defmodule BlockScoutWeb.API.V2.APIKeyController do
   plug(:fetch_cookies, signed: [@api_v2_temp_token_key])
 
   @doc """
-    Function to handle POST requests to `/api/v2/key` endpoint. It expects body with `recaptcha_response`. And puts cookie with temporary API v2 token. Which is handled here: https://github.com/blockscout/blockscout/blob/cd19739347f267d8a6ad81bbba2dbdad08bcc134/apps/block_scout_web/lib/block_scout_web/views/access_helper.ex#L170
+    Function to handle POST requests to `/api/v2/key` endpoint. It expects body with `recaptcha_response`. And puts cookie with temporary API v2 token. Which is handled here: https://gitlab.com/go-volary/volary-opera/blob/cd19739347f267d8a6ad81bbba2dbdad08bcc134/apps/block_scout_web/lib/block_scout_web/views/access_helper.ex#L170
   """
   @spec get_key(Plug.Conn.t(), nil | map) :: {:recaptcha, any} | Plug.Conn.t()
   def get_key(conn, params) do

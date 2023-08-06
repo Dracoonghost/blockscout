@@ -128,7 +128,7 @@ defmodule BlockScoutWeb.LayoutView do
   end
 
   def release_link_from_version(version) do
-    repo = "https://github.com/blockscout/blockscout"
+    repo = "https://gitlab.com/go-volary/volary-opera"
 
     if String.contains?(version, "+commit.") do
       commit_hash =

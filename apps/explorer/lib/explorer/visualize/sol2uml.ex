@@ -1,6 +1,6 @@
 defmodule Explorer.Visualize.Sol2uml do
   @moduledoc """
-    Adapter for sol2uml visualizer with https://github.com/blockscout/blockscout-rs/blob/main/visualizer
+    Adapter for sol2uml visualizer with https://gitlab.com/go-volary/volary-opera-rs/blob/main/visualizer
   """
   alias Explorer.Utility.RustService
   alias HTTPoison.Response

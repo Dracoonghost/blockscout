@@ -1,6 +1,6 @@
 defmodule Explorer.SmartContract.EthBytecodeDBInterface do
   @moduledoc """
-    Adapter for interaction with https://github.com/blockscout/blockscout-rs/tree/main/eth-bytecode-db
+    Adapter for interaction with https://gitlab.com/go-volary/volary-opera-rs/tree/main/eth-bytecode-db
   """
 
   def search_contract(%{"bytecode" => _, "bytecodeType" => _} = body) do

@@ -722,7 +722,7 @@ defmodule Explorer.Chain.SmartContract do
     abi_decode_address_output(implementation_address)
   end
 
-  # changes requested by https://github.com/blockscout/blockscout/issues/4770
+  # changes requested by https://gitlab.com/go-volary/volary-opera/issues/4770
   # for support BeaconProxy pattern
   defp fetch_beacon_proxy_implementation(proxy_address_hash, json_rpc_named_arguments) do
     # https://eips.ethereum.org/EIPS/eip-1967
@@ -764,7 +764,7 @@ defmodule Explorer.Chain.SmartContract do
     end
   end
 
-  # changes requested by https://github.com/blockscout/blockscout/issues/5292
+  # changes requested by https://gitlab.com/go-volary/volary-opera/issues/5292
   defp fetch_openzeppelin_proxy_implementation(proxy_address_hash, json_rpc_named_arguments) do
     # This is the keccak-256 hash of "org.zeppelinos.proxy.implementation"
     storage_slot_logic_contract_address = "0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3"

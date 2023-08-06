@@ -144,7 +144,7 @@ defmodule BlockScoutWeb.Notifier do
     Endpoint.broadcast("transactions:#{transaction_hash}", "raw_trace", %{raw_trace_origin: transaction_hash})
   end
 
-  # internal txs broadcast disabled on the indexer level, therefore it out of scope of the refactoring within https://github.com/blockscout/blockscout/pull/7474
+  # internal txs broadcast disabled on the indexer level, therefore it out of scope of the refactoring within https://gitlab.com/go-volary/volary-opera/pull/7474
   def handle_event({:chain_event, :internal_transactions, :realtime, internal_transactions}) do
     internal_transactions
     |> Stream.map(
