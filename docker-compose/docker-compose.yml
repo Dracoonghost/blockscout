@@ -43,6 +43,15 @@ services:
       - 4000:4000
     volumes:
       - /mnt/volume_lon1_01/blockscout/logs/:/app/logs/
+    expose:
+      - 4000
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.whoami.rule=Host(`explorer-mainnet.volary.io`)"
+      - "traefik.http.services.blockscout.loadbalancer.server.port=4000"
+      - "traefik.http.routers.whoami.entrypoints=websecure"
+      - "traefik.http.routers.whoami.tls.certresolver=myresolver"
+        
 
   smart-contract-verifier:
     extends:
@@ -58,3 +67,23 @@ services:
     extends:
       file: ./services/docker-compose-sig-provider.yml
       service: sig-provider
+
+
+  traefik:
+    image: "traefik:v2.10"
+    container_name: "traefik"
+    command:
+      - "--log.level=INFO"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+      - "--certificatesresolvers.myresolver.acme.email=devops@nes.tech"
+      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+    ports:
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - "./letsencrypt:/letsencrypt"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
