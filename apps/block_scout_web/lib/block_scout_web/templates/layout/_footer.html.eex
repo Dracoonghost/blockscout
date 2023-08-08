@@ -40,6 +40,13 @@
         </div>
       </div>
 
+       <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+        <h3>The Other Explorer</h3>
+        <ul>
+          <%= render BlockScoutWeb.LayoutView, "_add_chain_to_mm.html" %>
+        </ul>
+      </div>
+
       <% main_nets = main_nets(other_networks()) %>
 
       <%= unless Enum.empty?(main_nets) do %>
